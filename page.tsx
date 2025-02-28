@@ -3,6 +3,7 @@ import CelebrityWall from "./celebrity-wall"
 import MasonryGallery from "./masonry-gallery"
 import ServicesShowcase from "./services-showcase"
 import Testimonials from "./testimonials"
+import {Transformations} from "./transformations"
 
 export default function SalonPage() {
   return (
@@ -11,6 +12,7 @@ export default function SalonPage() {
       <CelebrityWall />
       <MasonryGallery />
       <ServicesShowcase />
+      <Transformations />
       <Testimonials />
     </main>
   )
