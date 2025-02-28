@@ -14,7 +14,7 @@ export default function MasonryGallery() {
       image: "https://www.kmorgatonics.com/wp-content/uploads/2024/10/image00008-min-copy-scaled.avif",
       alt: "Khushboo Mishra with Madhuri Dixit",
       caption: "With Madhuri Dixit at Celebs and You Entertainment",
-      aspectRatio: "4/5",
+      aspectRatio: "4/5", // added aspect ratio
     },
     {
       id: 2,

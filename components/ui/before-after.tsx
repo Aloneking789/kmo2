@@ -48,8 +48,8 @@ export function BeforeAfter({
       onMouseMove={handleDrag}
       onTouchStart={() => setIsDragging(true)}
       onTouchEnd={() => setIsDragging(false)}
-      onTouchMove={handleDrag}
-    >
+      onTouchMove={handleDrag}  
+    >     
       <div className="absolute inset-0">
         <img src={afterImage || "/placeholder.svg"} alt="After" className="h-full w-full object-cover" />
       </div>

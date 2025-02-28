@@ -8,7 +8,7 @@ import { ChevronLeft, ChevronRight, X } from "lucide-react"
 export default function FounderGallery() {
   const [activeIndex, setActiveIndex] = useState(0)
   const [lightboxImage, setLightboxImage] = useState(null)
-
+  
   const galleryItems = [
     {
       id: 1,

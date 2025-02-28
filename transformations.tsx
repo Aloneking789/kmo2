@@ -9,7 +9,7 @@ export function Transformations() {
       id: 1,
       title: "Bridal Transformation",
       description: "Creating timeless bridal looks that enhance natural beauty",
-      beforeImage: "./t1.png",
+      beforeImage: "./t1.png", // added images
       afterImage:
         "./tt1.png",
     },
